@@ -1,68 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Doce Encanto</title>
     <link rel="stylesheet" href="style/exercicio3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Exercício Avaliativo 3</h1>
+ <body> 
+
+    <header class="topo">
+        <h2>Doce Encanto</h2>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Presentes</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Presentes</a>
+            <a href="#">Eventos</a>
+            <a href="#">Sobre</a>
+            <a href="#" class="ativo">Contato</a>
         </nav>
     </header>
 
-    <!-- Título da seção -->
-    <section class="titulo">
-        <h2>Entre em Contato</h2>
+    <section class="contato-area">
+        <h1>Entre em Contato</h1>
         <p>Estamos aqui para adoçar seu dia. Fale conosco!</p>
+
+        <div class="conteudo">
+            <div class="infos">
+               <div class="card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Endereço</h3>
+                    <p>Rua dos Doces, 123 - São Paulo, SP</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>(11) 99999-9999</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>E-mail</h3>
+                    <p>contato@doceencanto.com</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Horário</h3>
+                    <p>Seg-Sex: 9h-18h | Sáb: 9h-14h</p>
+                </div>
+            </div>
+            <div class="formulario">
+                <h2>Envie uma Mensagem</h2>
+
+                <form>
+                    <input type="text" placeholder="Seu nome completo">
+                    <input type="text" placeholder="(11) 99999-9999">
+                    <textarea placeholder="Como podemos ajudar?"></textarea>
+                    <button>Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
     </section>
 
-    <!-- Blocos de informações + formulário -->
-    <section class="contato-container">
-
-        <!-- Blocos de informação -->
-        <div class="info-boxes">
-
-            <div class="box">
-                <h3>Endereço</h3>
-                <p>Rua dos Doces, 123 - São Paulo, SP</p>
-            </div>
-
-            <div class="box">
-                <h3>Telefone</h3>
-                <p>(11) 99999-9999</p>
-            </div>
-
-            <div class="box">
-                <h3>E-mail</h3>
-                <p>contato@doceencanto.com</p>
-            </div>
-
-            <div class="box">
-                <h3>Horário</h3>
-                <p>Seg-Sex: 9h-18h | Sáb: 9h-14h</p>
-            </div>
-
-        </div>
-
-        <!-- Formulário -->
-        <div class="formulario">
-            <h3>Envie uma Mensagem</h3>
-
-            <form>
-                <label>Nome</label>
-                <input type="text" placeholder="Seu nome completo">
-
-                <label>Telefone</label>
+</body>
+</html>
